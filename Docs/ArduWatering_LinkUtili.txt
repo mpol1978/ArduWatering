@@ -1,0 +1,15 @@
+
+https://www.arduino.cc/en/Reference/HomePage
+
+https://playground.arduino.cc/Learning/Memory
+
+https://www.arduino.cc/en/Reference/PROGMEM
+
+https://stackoverflow.com/questions/14663543/memory-limits-on-arduino
+
+-----------------------------------------------------------------------------
+
+Fishino Uno RTC
+
+http://fishino.it/en/forums/topic/rtc-module/page/2/
+https://github.com/adafruit/RTClib

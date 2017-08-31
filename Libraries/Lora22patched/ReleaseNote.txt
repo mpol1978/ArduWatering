@@ -1,0 +1,14 @@
+Version 2.2
+New Functions in LORA :
+ - defDevRange() : define devices local addresses range in a network structure
+ - defNetAddress() : define the network address part of address structure
+   (NB. setNetAddress() is deprecated)
+ Redesign of receiveNetMess() : now manages local broadcast
+ Upgrade function LORA begin with some setting of parameter (default optimizing low speed and
+ setting parameters SF=11, BW=7, CR=4)  
+New Functions in SX1278:
+ - SX.setRndSeed() : set the random number generator using Lora RSSI wideband noisy value
+ - SX.getLorabps() : returns computed bit/second (bps) depending on BW,SF and CR set
+ - SX.getLoraBwFreq() : returns Band Width in terms of frequency (getLoraBw istead returns code)
+ - SX.setLoraLowDataRateOptimize(boolean on): set register for optimize in case of low bps
+ - SX.lastLoraPacketSignalPower() : computed signal strength (RSSI+SNR)
